@@ -1,0 +1,17 @@
+NAME="tack"
+VERSION=1.07-20130713
+RELEASE=2
+CATEGORY="Utils"
+SUMMARY="terminfo file utility"
+DESCRIPTION="The tack program is a diagnostic that is designed to create and
+verify the correctness of terminfo's.  This program can be used to create new
+terminal descriptions that are not included in the standard release."
+HOMEPAGE="http://invisible-island.net/ncurses/ncurses.html"
+SRC_URI="ftp://invisible-island.net/ncurses/current/tack-${VERSION}.tgz"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygconf --with-ncurses ac_cv_header_term_entry_h=yes
+	cygmake
+}
