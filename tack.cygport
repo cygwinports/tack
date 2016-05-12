@@ -1,6 +1,6 @@
 NAME="tack"
-VERSION=1.07-20130713
-RELEASE=2
+VERSION=1.07-20150606
+RELEASE=1
 CATEGORY="Utils"
 SUMMARY="terminfo file utility"
 DESCRIPTION="The tack program is a diagnostic that is designed to create and
