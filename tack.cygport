@@ -1,13 +1,14 @@
 NAME="tack"
-VERSION=1.07-20150606
-RELEASE=1
+VERSION=1.08
+RELEASE=1.20170818
 CATEGORY="Utils"
 SUMMARY="terminfo file utility"
 DESCRIPTION="The tack program is a diagnostic that is designed to create and
 verify the correctness of terminfo's.  This program can be used to create new
 terminal descriptions that are not included in the standard release."
 HOMEPAGE="http://invisible-island.net/ncurses/ncurses.html"
-SRC_URI="ftp://invisible-island.net/ncurses/current/tack-${VERSION}.tgz"
+SRC_URI="ftp://ftp.invisible-island.net/ncurses/current/tack-${VERSION}-${RELEASE#*.}.tgz"
+SRC_DIR="tack-${VERSION}-${RELEASE#*.}"
 
 src_compile() {
 	lndirs
