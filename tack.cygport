@@ -1,6 +1,6 @@
 NAME="tack"
 VERSION=1.08
-RELEASE=1.20170818
+RELEASE=2.20190721
 CATEGORY="Utils"
 SUMMARY="terminfo file utility"
 DESCRIPTION="The tack program is a diagnostic that is designed to create and
